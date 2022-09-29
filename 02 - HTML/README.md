@@ -17,4 +17,6 @@ Para entrar a los contenidos solo tienes que dar click en el título y empezará
 
 ***¡Vámonos hasta el espacio y más allá Explorers!***
 
-[Volver &ldca;](/README.md "Regresar a página principal")
+---
+
+[*Volver* **&ldca;**](/README.md "Regresar a página principal") [*Subir* **&#11165;**](# "Ir al título")

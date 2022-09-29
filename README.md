@@ -113,4 +113,8 @@ El curso tiene 8 módulos que tienen dentro varios subtemas que iremos viendo co
 **Las diferentes ligas se irán desbloqueando durante el curso conforme pasen las semanas para que no se me adelanten**
 
 **_Vámonos hasta el espacio y más allá Explorers!_**
-"# cursoFrontEnd" <p style='text-align: right;'>[*Subir* **&#11165;**](# "Ir al título")</p>
+"# cursoFrontEnd"
+
+---
+
+[*Subir* **&#11165;**](# "Ir al título")

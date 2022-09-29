@@ -14,4 +14,6 @@ Estos son los programas con los ejemplos que estuvimos viendo en los diferentes 
 
 [Este es el link de la práctica](./practica/README.md)
 
-[Volver &ldca;](/README.md "Regresar a página principal")
+---
+
+[*Volver* **&ldca;**](/README.md "Regresar a página principal") [*Subir* **&#11165;**](# "Ir al título")

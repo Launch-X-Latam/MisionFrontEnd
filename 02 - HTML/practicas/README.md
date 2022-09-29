@@ -36,4 +36,7 @@ En caso de que te quede corto el ejercicio siguele con esto!
 ## El 4 de Noviembre se subirá el Form para que entreguen las prácticas. 
 ***¡Vámonos hasta el espacio y más allá Explorers!***
 
-[Volver &ldca;](/02%20-%20HTML/README.md "Regresar a página anterior")
+---
+
+[*Volver* **&ldca;**](/01%20-%20INTRO/README.md "Regresar a página anterior") 
+[*Subir* **&#11165;**](# "Ir al título")

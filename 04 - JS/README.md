@@ -14,4 +14,6 @@ Recuerden que para correrlos necesitan también los programas de HTML que están
 
 [Este es el link de la práctica](./practica/README.md)
 
-[Volver &ldca;](/README.md "Regresar a página principal")
+---
+
+[*Volver* **&ldca;**](/README.md "Regresar a página principal") [*Subir* **&#11165;**](# "Ir al título")
