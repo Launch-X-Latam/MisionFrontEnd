@@ -24,6 +24,6 @@ Descripción:
 
 Para entrar a los contenidos solo tienes que dar click en el título y empezará la aventura.
 
-**_¡Vámonos hasta el espacio y más allá Explorers!_**
+**_¡Vámonos hasta el espacio y más allá Explorers!_** <p style='text-align: right;'>[*Subir* **&#11165;**](# "Ir al título")</p>
 
 [Volver &ldca;](/01%20-%20INTRO/README.md "Regresar a página anterior")
