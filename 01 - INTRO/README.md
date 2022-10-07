@@ -19,3 +19,5 @@ En este módulo veremos las siguientes cosas.
 Para entrar a los contenidos solo tienes que dar click en el título y empezará la aventura.
 
 **_¡Vámonos hasta el espacio y más allá Explorers!_**
+
+[Volver &ldca;](/README.md "Regresar a página principal")

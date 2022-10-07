@@ -12,3 +12,5 @@ Les dejé unos programas con los ejemplos que estuvimos viendo en los diferentes
 ## Práctica
 
 [Este es el link de la práctica](./practica/README.md)
+
+[Volver &ldca;](/README.md "Regresar a página principal")

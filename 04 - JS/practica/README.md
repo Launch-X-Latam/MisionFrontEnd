@@ -29,3 +29,5 @@ Aquí les dejo el código de pokedex que estuvimos haciendo el día del live [Li
 
 ## El 18 de Marzo se subirá el Form para que entreguen las prácticas y tienen hasta el 20 de Marzo a las 12:00 de la noche para entregarlas. 
 ***¡Vámonos hasta el espacio y más allá Explorers!***
+
+[Volver &ldca;](/04%20-%20JS/README.md "Regresar a página anterior")

@@ -20,7 +20,7 @@ Descripción:<br>
 - La página debe tener información de la pastelería que es Dirección, Teléfono y horarios de atención.
 
 ## Prácticas a Realizar
-**Tienen hasta el 4 de Marzo**
+**Tienen hasta el 4 de Noviembre**
 
 Prácticas:
 - Crear marca de la pastelería como un logo y los mensajes que daremos desde la marca.
@@ -33,5 +33,7 @@ En caso de que te quede corto el ejercicio siguele con esto!
 - Bonus de Rutas (Navegación en la página)
 - Bonus de despliegue (Montar la página en línea con dominio gratuito)
 
-## El 4 de Marzo se subirá el Form para que entreguen las prácticas. 
+## El 4 de Noviembre se subirá el Form para que entreguen las prácticas. 
 ***¡Vámonos hasta el espacio y más allá Explorers!***
+
+[Volver &ldca;](/02%20-%20HTML/README.md "Regresar a página anterior")
