@@ -2,7 +2,7 @@
 
 Para las practicas de esta semana tendrán el siguiente caso y a raiz de eso sacar los puntos mencionados abajo.
 
-**Caso: Abogabot**
+**Caso: Abogabot** <br>
 Descripción:
 
 - Es un despacho de abogados que quiere automatizar las demandas de sus clientes, esto lo harán a traves de una página web llenando un formulario.
