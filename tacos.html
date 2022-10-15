@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tacos El Jefe</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Estilo de header */
+        header {
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        /* Crear 2 columnas con la misma posición en la fila */
+        nav {
+            float: left;
+            width: 30%;
+            height: 1400px;
+            /* only for demonstration, should be removed */
+            background: #ccc;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            /*height: 300px;*/
+        }
+
+        /* Clear floats after the columns */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Estilo de footer */
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>TACOS "EL JEFE"</h1>
+        <img src=".\Tacos El Jefe.png" alt="El Jefe" width="350px" height="350px">
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">Menú</a></li>
+                <li><a href="#">Sucursales</a></li>
+                <li><a href="#">Pedido</a></li>
+            </ul>
+        </nav>
+        
+        <article>
+            <section>
+                <h2> MENU </h2>
+                <h3> Tacos pequeños </h3>
+                <p>Todos incluyen salsas</p>
+                <ul>
+                    <li>Carne .................... $5</li>
+                    <li>Pollo .................... $5</li>
+                    <li>Chuleta .................. $5</li>
+                    <li>Vegetariano .............. $5</li>
+                </ul>
+                <br>
+
+                <h3> Tacos grandes </h3>
+                <p>Todos incluyen bebida</p>
+                <ul>
+                    <li>Carne .................... $8</li>
+                    <li>Pollo .................... $8</li>
+                    <li>Chuleta .................. $8</li>
+                    <li>Vegetariano .............. $8</li>
+                </ul>
+                
+                <br>
+
+                <h3> Especiales </h3>
+                <p>Incluye papas y bebida</p>
+                <ul>
+                    <li><b>Enchiladas</b>.......... $10</dt>
+                    <dd>- Tortilla frita con salsa, rellena de pollo</dd>
+                    <li><b>Molletes</b>............ $10</dt>
+                    <dd>- Bolillo con frijoles y queso</dd>
+                </ul>
+            </section>
+            <hr>    
+            <section>
+                <h2> SUCURSALES </h2>
+                <table>
+                    <tr>
+                        <th>Ubicación</th>
+                        <th>Dirección</th>   
+                        <th>Horario</th>
+                    </tr>
+                    <tr>
+                        <td>Norte</td>
+                        <td><a href="https://goo.gl/maps/4euYHmA9KHGu8M3z7" target="_blank">Isla Santiago, Quito 170138</a></td>
+                        <td>L - S 11 am - 8 pm</td>
+                    </tr>
+                    <tr>
+                        <td>Centro</td>
+                        <td><a href="https://goo.gl/maps/ZJRJXUCx6J3bnUAJ9">Eje Transversal, Quito 170170</a></td>
+                        <td>L - S 12 pm - 7 pm</td>
+                    </tr>
+                    <tr>
+                        <td>Sur</td>
+                        <td><a href="https://goo.gl/maps/FGvzbY7o8NLkNnEf6">Bernardo de Legarda, Quito 170528</a></td>
+                        <td>L - D 10 am - 5 pm</td>
+                    </tr>
+                </table>
+            </section>
+            <hr>
+            <section>
+                <h2> PEDIDO </h2>
+                <h3> Haz tu pedido aquí</h3>
+                <form action="/accion.js" id="form1" method="post">
+                    <p>Elije tu local</p>
+                    <select>
+                        <option value="Norte">Norte</option>
+                        <option value="Centro">Centro</option>
+                        <option value="Sur">Sur</option>
+                    </select>
+                    
+                    <p>Que tacos quieres?</p>
+                    <input type="checkbox" id="Carne" name="Carne" value="Carne">
+                    <label for="Carne">Carne</label>
+                    <input type="number" placeholder="Cuantos?" id="CarneN" name="CarneN"><br>
+                    <input type="checkbox" id="Pollo" name="Pollo" value="Pollo">
+                    <label for="Pollo">Pollo</label>
+                    <input type="number" placeholder="Cuantos?" id="PolloN" name="PolloN"><br>
+                    <input type="checkbox" id="Chuleta" name="Chuleta" value="Chuleta">
+                    <label for="Chuleta">Chuleta</label>
+                    <input type="number" placeholder="Cuantos?" id="ChuletaN" name="ChuletaN"><br>
+                    <input type="checkbox" id="Vegetariano" name="Vegetariano" value="Vegetariano">
+                    <label for="Vegetariano">Vegetariano</label>
+                    <input type="number" placeholder="Cuantos?" id="VegetarianoN" name="VegetarianoN"><br><br>
+
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Cómo te llamas?"><br>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="text" id="telefono" name="telefono" placeholder="Cuál es tu número?"><br>
+                    <label for="direccion">Dirección:</label>
+                    <input type="text" id="direccion" name="direccion" placeholder="Cuál es tu dirección?"><br><br>
+                    <hr>
+                    <button type="submit">Enviar Pedido </button>
+                    <hr>
+                </form>
+            </section>
+        </article>
+    </section>
+
+    <footer>
+        <p>@Derechos Reservados</p>
+    </footer>
+
+</body>
+
+</html>
