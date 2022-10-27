@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selectores</title>
     <style>
+        /*Cascade Style Sheet --> CSS*/
         *{
             font-family: Arial, Helvetica, sans-serif;
         }
@@ -20,17 +21,21 @@
         }
 
         #titulo{
-            color: rgb(200,150,220);
+            color: #7f1da6;
             text-align: right;
         }
 
         .izquierda{
-            color: green;
+            color: rgb(0, 128, 0);
         }
 
         p.izquierda{
             text-decoration: underline;
             text-align: left;
+        }
+
+        p#titulo{
+            text-decoration: dotted;
         }
 
         .contraste{
@@ -47,7 +52,6 @@
     </style>
 </head>
 <body>
-
     <h1>Header simple</h1>
     <h2 id="titulo" class="izquierda">Header con id Titulo</h2>
     <p>Parrafo simple</p>

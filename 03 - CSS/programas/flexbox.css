@@ -1,0 +1,22 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    min-height: 400px;
+    background-color: #697070;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.elemento{
+    height: 200px;
+    width: 200px;
+    background-color: #911a3c;
+    border-color: #fff;
+    border-width: 5px;
+    border-style: solid;
+    padding: 10px;
+}

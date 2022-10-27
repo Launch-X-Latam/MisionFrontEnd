@@ -16,7 +16,7 @@ div{
 
 .fondoOpacidad{
     background-color: #5d0c0c;
-    opacity: 0.6;
+    opacity: 0.4;
 }
 
 .fondoImagen{
@@ -46,7 +46,6 @@ div{
 
 .fondoCompleto{
     background-image: url("../images/fondo2.jpg");
-    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
