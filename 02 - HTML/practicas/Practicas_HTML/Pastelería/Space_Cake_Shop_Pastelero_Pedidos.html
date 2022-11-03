@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de la taquería Tacos El Jefe">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Space Cake Shop - Pasteleros</title>
+</head>
+
+<body>
+    <header class="contenedorHI">
+        <div class="elementoI">
+            <a href="/Space_Cake_Shop.html">
+                <img src="/assets/img/Captura de pantalla 2022-10-27 001633.png" alt="Favicon Space Cake Shop"
+                    class="imagen">
+            </a>
+        </div>
+        <div class="elementoI">
+        </div>
+        <div class="elementoI">
+            <a href="/Space_Cake_Shop_Pastelero_Almacén.html">
+                Almacén
+            </a>
+        </div>
+    </header>
+
+
+    <h1>Pedidos de Space Cake Shop</h1>
+
+
+    <section class="contenedor">
+        <div class="elemento">
+            <img src="/assets/img/doble-queso-y-zarzamora.jpg" alt="Space Cake" height="100%" text-align="center">
+        </div>
+
+        <section class="elemento">
+            <img src="/assets/img/mozaico-gde-gris.jpg" alt="Space Cake" height="100%" text-align="center">
+        </section>
+    </section>
+
+
+    <!-- <article class="contenedor"> -->
+
+
+    <!-- </article> -->
+
+
+    <article class="contenedor">
+        <section class="pedido">
+            <h2>Pedidos pendientes.</h2>
+
+            <h3>Filtros</h3>
+            <form action="/buscar.js">
+                <h3>Elige la pastelería:</h3>
+                <select name="pedido" id="pedido">
+                    <option value="Norte">SpaceCake Norte</option>
+                    <option value="Sur">SpaceCake Sur</option>
+                    <option value="Centro">SpaceCake Centro</option>
+                    <option value="Oriente">SpaceCake Oriente</option>
+                    <option value="Poniente">SpaceCake Poniente</option>
+                </select>
+
+                <h3>Producto:</h3>
+                <select name="pedido" id="pedido">
+                    <option value="SpaceCake">SpaceCake</option>
+                    <option value="SpaceJelly">SpaceJelly</option>
+                </select>
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+    </article>
+    <article class="contenedor">
+        <section class="ubi">
+            <h2>Lista de Pedidos.</h2>
+            <h3>Resultados</h3>
+            <table class="cuadro">
+                <tr>
+                    <th>Información Clientes</th>
+                    <th>Detalles del pedido</th>
+                    <th>Estatus del pedido</th>
+                </tr>
+                <tr>
+                    <td>
+                        <pre>
+Juan Hernández
+553424132
+juan.hernandez@gmail.com
+Calle A #123, Colonia Ana A, Edo Mex.
+                        </pre>
+                    </td>
+                    <td>
+                        <pre>
+SpaceCake Norte
+Mi pastel ideal es Lorem ipsum dolor sit amet consectetur 
+adipisicing elit. Fugiat praesentium itaque sed, suscipit 
+soluta quod laborum. Placeat consequatur reiciendis natus sit.
+Fresa, Zarzamora
+Velas Clásicas
+                        </pre>
+                    </td>
+                    <td>En proceso</td>
+                </tr>
+                <tr>
+                    <td>
+                        <pre>
+Carlos Peréz
+556424246
+carlos.p@gmail.com
+Calle B #23, Colonia Bernardo S, CDMX.
+                        </pre>
+                    </td>
+                    <td>
+ <pre>
+SpaceCake Poniente
+Mi pastel ideal es Lorem ipsum dolor sit amet consectetur 
+adipisicing elit. Fugiat praesentium itaque sed, suscipit 
+soluta quod laborum. Placeat consequatur reiciendis natus sit.
+Cajeta, Café
+Velas Figuras, Impresión Comestible
+</pre>
+                    </td>
+                    <td>Finalizado</td>
+                </tr>
+                <tr>
+                    <td>
+                        <pre>
+Ana Fernandez
+5509346789
+ana.fer@gmail.com
+Calle C #13, Colonia La  Paz, Edo Mex.
+                        </pre>
+                    </td>
+                    <td>
+ <pre>
+SpaceCake Sur
+Mi pastel ideal es Lorem ipsum dolor sit amet consectetur 
+adipisicing elit. Fugiat praesentium itaque sed, suscipit 
+soluta quod laborum. Placeat consequatur reiciendis natus sit.
+Frutas
+Impresión Comestible
+</pre>
+                    </td>
+                    <td>Falta pago</td>
+                </tr>
+                <tr>
+                    <td>
+                        <pre>
+Paola Zavala
+5534450988
+paola.zav@gmail.com
+Calle 1 #321, Colonia Centro, CDMX.
+                        </pre>
+                    </td>
+                    <td>
+ <pre>
+SpaceCake Oriente
+Mi gelatina ideal es Lorem ipsum dolor sit amet consectetur 
+adipisicing elit. Fugiat praesentium itaque sed, suscipit 
+soluta quod laborum. Placeat consequatur reiciendis natus sit.
+Fresa, Zarzamora
+Sin adornos.
+</pre>
+                    </td>
+                    <td>En entrega</td>
+                </tr>
+            </table>
+        </section>
+    </article>
+
+    <footer class="contenedorF">
+        <figure class="elemento3">
+            <picture>
+                <img src="/assets/img/Space Cake Shop.png" alt="Logo Space Cake Shop" class="imagen">
+            </picture>
+        </figure>
+        <div class="elemento3">
+            <p>Contacto</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse minima ea eligendi porro recusandae
+                aliquid, quas labore ipsam omnis iusto dolorem eos pariatur, provident inventore consequatur accusantium
+                nulla deleniti maxime.</p>
+            <p>Términos y condiciones</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse minima ea eligendi porro recusandae
+                aliquid, quas labore ipsam omnis iusto dolorem eos pariatur, provident inventore consequatur accusantium
+                nulla deleniti maxime.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

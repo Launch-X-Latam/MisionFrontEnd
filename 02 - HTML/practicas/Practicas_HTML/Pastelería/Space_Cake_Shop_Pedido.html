@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de la taquería Tacos El Jefe">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Space Cake Shop</title>
+</head>
+
+<body>
+    <header class="contenedorHI">
+        <div class="elementoI">
+            <a href="/Space_Cake_Shop.html">
+                        <img src="/assets/img/Captura de pantalla 2022-10-27 001633.png" alt="Favicon Space Cake Shop" class="imagen">
+                </a>
+        </div>
+        <div class="elementoI">
+        </div>
+        <div class="elementoI">
+                <a href="/Space_Cake_Shop.html">
+                        Login
+                </a>
+        </div>
+    </header>
+
+    
+        <h1>Finalice su pedido de Space Cake Shop</h1>
+    
+    
+        <section class="contenedor">            
+            <div class="elemento">
+                <img src="/assets/img/Space Cake Shop.png" alt="Logo Space Cake Shop" height="100%" text-align="center">
+            </div>
+                
+                <section class="elemento">
+
+                    <table>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Ubicación</th>
+                        <th>Horarios</th>
+                    </tr>
+                    <tr>
+                        <td>SpaceCake Centro</td>
+                        <td>
+                            <a href="https://goo.gl/maps/316XFKkWVV2EMuj39" target="_blank">Colonia Centro
+                                Centro, Ciudad de México, CDMX</a>
+                            </td>
+                            <td>L-D 24 hrs</td>
+                        </tr>
+                        <tr>
+                            <td>SpaceCake Norte</td>
+                            <td>
+                                <a href="https://goo.gl/maps/NJtbPvJvtT94Ekvr9" target="_blank">Av. Wilfrido Massieu 399, Nueva
+                                    Industrial Vallejo</a>
+                                </td>
+                                <td>L-S de 12PM a 10PM</td>
+                            </tr>
+                            <tr>
+                    <td>Sur</td>
+                    <td>
+                        <a href="https://goo.gl/maps/4Ld3fwfmhXEQzUpHA" target="_blank">Olímpica
+                            04710 Ciudad de México, CDMX</a>
+                        </td>
+                        <td>M-V de 10AM a 10 PM</td>
+                    </tr>
+                    <tr>
+                        <td>SpaceCake Oriente</td>
+                        <td>
+                            <a href="https://goo.gl/maps/Z5Lwaxx3wYAYrYgaA" target="_blank">Parque Nacional Cerro de la
+                                Estrella</a>
+                            </td>
+                            <td>M-S 8AM a 9PM</td>
+                        </tr>
+                        <tr>
+                            <td>SpaceCake Poniente</td>
+                            <td>
+                                <a href="https://goo.gl/maps/Mi4ctYHXd8TJoZgdA" target="_blank">Hipódromo Condesa
+                                    06170 Ciudad de México, CDMX</a>
+                                </td>
+                                <td>L-D 24 hrs</td>
+                            </tr>
+                        </table>
+                    </section>
+                </section>
+                
+
+        
+
+
+
+
+    <!-- <article class="contenedor"> -->
+
+       
+        <!-- </article> -->
+
+
+        <article class="contenedor">
+    <section class="pedido">
+        <h2>Pedidos</h2>
+        <h3>Datos personales:</h3>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+            <br><br>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" name="telefono" placeholder="Teléfono">
+            <br><br>
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" placeholder="Dirección">
+            <br>
+            <label for="correo">Correo:</label>
+            <input type="text" id="correo" name="correo" placeholder="correo@dom.com">
+            <br><br>
+
+            <h3>Elige la pastelería:</h3>
+        <select name="pedido" id="pedido">
+            <option value="Norte">SpaceCake Norte</option>
+            <option value="Sur">SpaceCake Sur</option>
+            <option value="Centro">SpaceCake Centro</option>
+            <option value="Oriente">SpaceCake Oriente</option>
+            <option value="Poniente">SpaceCake Poniente</option>
+        </select>
+
+        <h2>¡Arma tu pedido!</h2>
+        
+
+        <p>Elige el producto:</p>
+            <select name="pedido" id="pedido">
+                <option value="SpaceCake">SpaceCake</option>
+                <option value="SpaceJelly">SpaceJelly</option>
+            </select>
+
+            <br>
+            <label for="pastel">Descripción del Pastel:</label>
+            <input type="text" id="pastel" name="pastel" placeholder="Tú pastel ideal es...">
+            <br>
+
+            <p>¿De qué sabor quieres?</p>
+            <input type="checkbox" id="Café" name="Café" value="Café">
+            <label for="Café">Café</label>
+            <input type="number" id="CaféNumber" name="CaféNumber" placeholder="¿Cuántos">
+            <br>
+        <input type="checkbox" id="Fresa" name="Fresa" value="Fresa">
+        <label for="Fresa">Fresa</label>
+        <input type="number" id="FresaNumber" name="FresaNumber" placeholder="¿Cuántos">
+        <br>
+        <input type="checkbox" id="Frutas" name="Frutas" value="Frutas">
+        <label for="Frutas">Frutas</label>
+        <input type="number" id="FrutasNumber" name="FrutasNumber" placeholder="¿Cuántos">
+        <br>
+        <input type="checkbox" id="Zarzamora" name="Zarzamora" value="Zarzamora">
+        <label for="Zarzamora">Zarzamora</label>
+        <input type="number" id="ZarzamoraNumber" name="ZarzamoraNumber" placeholder="¿Cuántos">
+        <br>
+        <input type="checkbox" id="Capuchino" name="Capuchino" value="Capuchino">
+        <label for="Capuchino">Capuchino</label>
+        <input type="number" id="CapuchinoNumber" name="CapuchinoNumber" placeholder="¿Cuántos">
+        <br>
+        <input type="checkbox" id="Cajeta" name="Cajeta" value="Cajeta">
+        <label for="Cajeta">Cajeta</label>
+        <input type="number" id="CajetaNumber" name="CajetaNumber" placeholder="¿Cuántos">
+        <br><br>
+
+        <p>¿Qué adornos quieres agregar?</p>
+            <input type="checkbox" id="VelasClásicas" name="VelasClásicas" value="VelasClásicas">
+            <label for="VelasClásicas">Velas Clásicas</label>
+            <input type="number" id="VelasClásicasNumber" name="VelasClásicasNumber" placeholder="¿Cuántos">
+            <br>
+        <input type="checkbox" id="VelasNúmeros" name="VelasNúmeros" value="VelasNúmeros">
+        <label for="VelasNúmeros">VelasNúmeros</label>
+        <input type="number" id="VelasNúmerosNumber" name="VelasNúmerosNumber" placeholder="¿Cuántos">
+        <br>
+        <input type="checkbox" id="VelasFiguras" name="VelasFiguras" value="VelasFiguras">
+        <label for="VelasFiguras">Velas Figuras</label>
+        <input type="number" id="VelasFigurasNumber" name="VelasFigurasNumber" placeholder="¿Cuántos">
+        <br>
+        <input type="checkbox" id="ImpresiónComestible" name="ImpresiónComestible" value="ImpresiónComestible">
+        <label for="ImpresiónComestible">ImpresiónComestible</label>
+        <input type="number" id="ImpresiónComestibleNumber" name="ImpresiónComestibleNumber" placeholder="¿Cuántos">
+        <br>
+        <input type="checkbox" id="DiseñosEspeciales" name="DiseñosEspeciales" value="DiseñosEspeciales">
+        <label for="DiseñosEspeciales">Diseños Especiales</label>
+        <input type="number" id="DiseñosEspecialesNumber" name="DiseñosEspecialesNumber" placeholder="¿Cuántos">
+        <br>
+        <br><br>
+
+        <h3><strong>¡¡¡Listos para el Despegue!!!</strong></h3>
+            <button type="submit">Enviar Pedido</button>
+        </form>
+    </section>
+</article>
+
+<footer class="contenedorF">
+    <figure class="elemento3">
+        <picture>
+            <img src="/assets/img/Space Cake Shop.png" alt="Logo Space Cake Shop" class="imagen">
+        </picture>
+    </figure>
+    <div class="elemento3">
+        <p>Contacto</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse minima ea eligendi porro recusandae aliquid, quas labore ipsam omnis iusto dolorem eos pariatur, provident inventore consequatur accusantium nulla deleniti maxime.</p>
+        <p>Términos y condiciones</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse minima ea eligendi porro recusandae aliquid, quas labore ipsam omnis iusto dolorem eos pariatur, provident inventore consequatur accusantium nulla deleniti maxime.</p>
+</div>
+</footer>
+</body>
+
+</html>
