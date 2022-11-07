@@ -1,4 +1,4 @@
-const cuadrado = function(x) {
+/*const cuadrado = function(x) {
     return x * x;
 }
 let numero = 4;
@@ -20,7 +20,7 @@ const exponencial = function (base, exponente) {
     return resultado;
 }
 
-console.log(exponencial(4,3))
+console.log(exponencial(4,2))
 
 
 console.log(sumar(5,65));
@@ -49,7 +49,7 @@ function preguntaDireccion(pregunta) {
   let result = prompt(pregunta);
   if (result.toLowerCase() == "izquierda") return "I";
   if (result.toLowerCase() == "derecha") return "D";
-  throw new Error("Dirección inválida: " + result);
+  throw new Error("Dirección inválida: "+ result);
 }
 
 function mirar() {
@@ -66,12 +66,12 @@ try {
   console.log("Hubo un error: " + error);
 }
 
-
+*/
 
 //Asincrono
-setTimeout(() => console.log("Tick"), 500);
+setTimeout(() => console.log("Tick 5000"), 2000);
 
-let fifteen = Promise.resolve(15);
+let fifteen = Promise.resolve(150);
 fifteen.then(value => console.log(`Got ${value}`));
 
 const promesa = () =>
