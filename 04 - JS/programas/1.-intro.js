@@ -1,7 +1,7 @@
 /*Las variables se pueden declarar con la palabra reservada "var", estas variables se pueden considerar como globales
 También se pueden declarar con la palabra reservada "let" y estas serán usadas dentro de un bloque de código
 Igualmente está la declaración con la palabra reservada "const" y se usarán cuando el valor no cambie */
-console.log("\n************* Variables **************\n");
+console.log("\n*************  DV **************\n");
 var numero1 = 4;
 var numero2 = 6;
 console.log("Número 1: " + numero1 + " Numero 2: " + numero2);
@@ -36,7 +36,7 @@ let listaDeNumeros = [2, 3, 5, 7, 11, 234];
 
 console.log(listaDeNumeros[5]);
 
-listaDeNumeros.push(16);
+listaDeNumeros.pop(16);
 listaDeNumeros.push(939);
 
 console.log(listaDeNumeros);
@@ -103,7 +103,7 @@ let numeroDoWhile = 22;
 do {
     numeroDoWhile = numeroDoWhile + 2;
     console.log(numeroDoWhile);
-} while (numeroDoWhile < 20);
+} while (numeroDoWhile <=20);
 console.log("Aquí sale del Do While " + numeroDoWhile);
 
 
@@ -133,4 +133,3 @@ switch (prompt("¿Cómo está el clima?")) {
     break;
 }
 console.log("Aquí salimos del Switch");
-

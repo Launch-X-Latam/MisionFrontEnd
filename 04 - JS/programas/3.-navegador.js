@@ -4,7 +4,7 @@ const titulo = document.getElementById("titulo");
 const parrafo = document.getElementsByTagName("p");
 const links = document.getElementsByClassName("links");
 
-
+console.log(parrafo);
 //Cambiar valores de HTML
 titulo.innerHTML = "Titulo cambiado";
 
@@ -23,11 +23,11 @@ function cambiarTexto(obj) {
 }
 
 function mOver(obj) {
-    obj.innerHTML = "Mouse over now"
+    obj.innerHTML = "Mouse over me now"
 }
 
 function mOut(obj) {
-    obj.innerHTML = "Mouse out"
+    obj.innerHTML = "Mouse out of me"
 }
 
 function mDown(obj) {
@@ -46,5 +46,5 @@ const boton = document.getElementById("boton");
 boton.addEventListener("click", alerta)
 
 function alerta() {
-    alert("alerta");
+    alert("alerta DV");
 }

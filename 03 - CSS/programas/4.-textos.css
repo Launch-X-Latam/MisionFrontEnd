@@ -1,5 +1,6 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    /*font-family: fantasy;*/
 }
 
 .izquierda{
@@ -52,6 +53,6 @@
 
 .link{
     text-decoration: none;
-    color: black;
+    color: black; 
     
 }
