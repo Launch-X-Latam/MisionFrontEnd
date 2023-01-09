@@ -11,7 +11,6 @@ const ruido = function () {
 
 ruido();
 
-
 const exponencial = function (base, exponente) {
     let resultado = 1;
     for (let i = 0; i < exponente; i++){
@@ -37,12 +36,11 @@ console.log(restar(40, 8));
 
 function saludar(quien) {
   console.log("Hola " + quien);
-  return;
 }
 saludar("Explorer");
 console.log("Bye");
 
-
+/*
 
 //Excepciones
 function preguntaDireccion(pregunta) {
@@ -66,8 +64,36 @@ try {
   console.log("Hubo un error: " + error);
 }
 
+const preguntar = (pregunta) => {
+  let respuesta = prompt(pregunta);
+  respuesta = respuesta.toLowerCase();
+  if(respuesta == 'izquierda' || respuesta == "derecha") return respuesta;
+}
+*/
+//Excepcion mejor
+/*
+const preguntar = (pregunta) => {
+  let respuesta = prompt(pregunta);
+  respuesta = respuesta.toLowerCase();
+  if (respuesta == "izquierda" || respuesta == "derecha") return respuesta;
+  throw new Error ("Dirección invalida " + respuesta);
+};
+const mirar2 = () => {
+  let aDonde = preguntar("A que lado volteas");
+  if(aDonde == "izquierda"){
+    return "una casa";
+  }else{
+    return "2 osos hambrientos"
+  }
+};
 
-
+try{
+  let aDonde = mirar2();
+  console.log(" Mirar a", aDonde);
+} catch (error) {
+  console.log('Hubo un error', error)
+}
+*/
 //Asincrono
 setTimeout(() => console.log("Tick"), 500);
 
@@ -98,4 +124,3 @@ async function main() {
 }
 
 main();
-

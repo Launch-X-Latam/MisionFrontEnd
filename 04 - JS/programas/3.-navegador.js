@@ -7,11 +7,13 @@ const links = document.getElementsByClassName("links");
 
 //Cambiar valores de HTML
 titulo.innerHTML = "Titulo cambiado";
+/* parrafo[0].innerHTML = "Parrafo cambiado"; */
 
-document.getElementById("demo").innerHTML = 'The text in first paragraph (index 0) is: ' + parrafo[0].innerHTML;
+document.getElementById("demo").innerHTML = 
+"El texto en el parrafo (index 0) es: " + parrafo[0].innerHTML;
 
-links[0].href = "google.com"; 
-
+links[0].href = "https://azure.microsoft.com/en-us/";
+links[0].target = "_blank";
 //Cambiar estilos
 
 titulo.style.color = "red"
@@ -45,6 +47,7 @@ function mUp(obj) {
 const boton = document.getElementById("boton");
 boton.addEventListener("click", alerta)
 
+
 function alerta() {
-    alert("alerta");
+    alert("Hola explores");
 }
